@@ -1,0 +1,114 @@
+---
+title: "Building Spartan Marketplace: AI-Powered Campus Commerce"
+publishedAt: "2024-05-15"
+summary: "How I built an AI-powered marketplace for UNCG students using OpenAI's GPT-4 and Vision API, and what I learned about solving real problems."
+category: "Projects"
+tags: ["AI", "React", "OpenAI", "problem-solving"]
+readingTime: "5 min read"
+---
+
+When I started my capstone project, I wanted to build something that would actually solve a real problem for students at UNCG. That's how Spartan Marketplace was born - an AI-powered platform that makes buying and selling on campus as easy as taking a photo.
+
+## The Problem
+
+Students needed a better way to buy and sell items on campus. Existing solutions were either too generic (Facebook Marketplace) or too complicated for quick transactions. I wanted to create something that was:
+
+- **UNCG-exclusive** - Only for our campus community
+- **AI-powered** - Make listing items effortless
+- **Community-focused** - Include discussions and connections
+
+## The Solution
+
+I built Spartan Marketplace with three core features:
+
+### 🤖 AI Marketplace Assistant
+
+The standout feature is the AI assistant powered by OpenAI's GPT-4 and Vision API. Students can:
+
+- Upload a photo and get a complete listing generated automatically
+- Search for items using natural language ("I need a cheap calculus textbook")
+- Get smart recommendations based on their needs
+
+### 💬 Reddit-Style Community Board
+
+Beyond just commerce, I added a community discussion board where students can:
+
+- Ask questions about campus life
+- Share tips and experiences
+- Vote on helpful content
+- Build connections
+
+### 🛒 Traditional Marketplace Features
+
+For users who prefer the classic approach:
+
+- Form-based listing creation
+- Advanced search and filters
+- Direct messaging between buyers and sellers
+- Secure UNCG email verification
+
+## Technical Implementation
+
+```javascript
+// Example of the AI listing generation
+const generateListing = async (imageFile) => {
+  const response = await openai.chat.completions.create({
+    model: "gpt-4-vision-preview",
+    messages: [
+      {
+        role: "user",
+        content: [
+          {
+            type: "text",
+            text: "Generate a marketplace listing for this item. Include title, description, and suggested price.",
+          },
+          {
+            type: "image_url",
+            image_url: { url: imageFile },
+          },
+        ],
+      },
+    ],
+  });
+
+  return response.choices[0].message.content;
+};
+```
+
+**Tech Stack:**
+
+- **Frontend:** React with modern hooks and context
+- **Backend:** Node.js with Express
+- **Database:** Supabase for real-time data and auth
+- **AI:** OpenAI GPT-4 and Vision API
+- **Deployment:** Render for reliable hosting
+
+## Key Learnings
+
+### 1. AI Integration is About UX, Not Just Tech
+
+The real challenge wasn't implementing the OpenAI API - it was designing an interface that made AI feel natural and helpful, not gimmicky.
+
+### 2. Real Users Have Real Needs
+
+Testing with actual UNCG students taught me that simplicity beats features every time. The photo-to-listing feature became the most loved because it solved a real pain point.
+
+### 3. Community Matters
+
+The discussion board ended up being just as important as the marketplace itself. Students wanted connection, not just transactions.
+
+## Results
+
+- **Live Demo:** [spartan-marketplace.onrender.com](https://spartan-marketplace.onrender.com)
+- **GitHub:** [github.com/kaniisun/Capstone490](https://github.com/kaniisun/Capstone490)
+- **Demo Video:** [YouTube Walkthrough](https://www.youtube.com/watch?v=5FPOsDh9m3A)
+
+## What's Next?
+
+This project taught me that the best technology solves real problems for real people. It's not about using the latest AI because it's cool - it's about making people's lives easier.
+
+Currently, I'm applying these same principles to my next project: a bird flu tracking system that uses AI to analyze and visualize public health data. Same philosophy, different problem.
+
+---
+
+_The best code is code that solves real problems. Everything else is just practice._
