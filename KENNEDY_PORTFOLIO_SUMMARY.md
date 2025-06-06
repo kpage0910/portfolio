@@ -25,10 +25,9 @@ Updated to reflect your actual expertise:
 
 ### **Experience Section**
 
-Reframed as your journey:
+Focused on your main project:
 
-1. **Graduate Student** - Current Master's program with AI focus
-2. **Self-Directed Learning & Projects** - Your independent AI research and bird flu tracker project
+1. **Spartan Marketplace** - Your capstone project showcasing AI-powered development skills
 
 ### **Projects**
 

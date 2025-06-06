@@ -25,10 +25,6 @@ An exclusive online marketplace for UNCG students featuring:
 
 **Live Demo:** [spartan-marketplace.onrender.com](https://spartan-marketplace.onrender.com)
 
-### Bird Flu Tracker _(In Development)_
-
-AI-powered tracking system for monitoring bird flu cases by country and region, focusing on data collection, analysis, and visualization for public health insights.
-
 ## 🛠️ Technologies & Skills
 
 - **Languages:** JavaScript, Python, SQL

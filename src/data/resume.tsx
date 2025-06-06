@@ -73,28 +73,6 @@ export const DATA = {
       description:
         "Built an exclusive online marketplace for UNCG students featuring AI-powered search and listing creation using OpenAI's GPT-4 and Vision API. Integrated Reddit-style community board for campus discussions. Students can create listings by simply uploading photos - AI generates complete product descriptions automatically. Demonstrates practical application of AI in solving real campus problems.",
     },
-    {
-      company: "Bird Flu Tracker",
-      href: "#",
-      badges: ["AI/ML", "Data Science", "Public Health"],
-      location: "Personal Project",
-      title: "AI Researcher & Developer",
-      logoUrl: "/bird-flu-icon.png",
-      end: "Present",
-      description:
-        "Developing an AI-powered tracking system for monitoring bird flu cases by country and region. Currently in planning and development phase, focusing on data collection, analysis, and visualization. This project represents my commitment to using AI and data science to solve timely public health challenges and demonstrates my ability to tackle complex, real-world problems.",
-    },
-    {
-      company: "Self-Directed AI Learning",
-      href: "#",
-      badges: ["Machine Learning", "Research", "Problem Solving"],
-      location: "Independent Study",
-      title: "AI & Data Science Student",
-      logoUrl: "/ai-learning-icon.png",
-      end: "Present",
-      description:
-        "Intensive self-directed learning in AI, machine learning, and data science through hands-on projects and research. Focused on practical problem-solving applications rather than theoretical knowledge alone. Developed expertise in OpenAI APIs, data analysis, and modern web technologies. Emphasizes learning what's needed to solve problems effectively rather than checking boxes on job requirements.",
-    },
   ],
   education: [
     {
@@ -148,27 +126,6 @@ export const DATA = {
         },
       ],
       image: "/spartan-marketplace.png",
-      video: "",
-    },
-    {
-      title: "Bird Flu Tracker (In Development)",
-      href: "#",
-      dates: "Present",
-      active: true,
-      description:
-        "AI-powered tracking system for monitoring bird flu cases by country and region. Currently in planning and development phase, focusing on data collection, analysis, and visualization. This project represents my commitment to using AI and data science to solve timely public health challenges.",
-      technologies: [
-        "Python",
-        "AI/Machine Learning",
-        "Data Science",
-        "Data Visualization",
-        "Public Health Data",
-        "API Integration",
-      ],
-      links: [
-        // Add links when available
-      ],
-      image: "",
       video: "",
     },
   ],
