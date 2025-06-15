@@ -118,16 +118,17 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  My Projects
+                  Business Solutions
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  Real Problems, Smart Solutions
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I focus on building solutions that solve real-world problems
-                  using AI and modern web technologies. Each project represents
-                  my commitment to learning what's needed and applying it
-                  effectively.
+                  I specialize in identifying business opportunities and
+                  implementing practical solutions using AI, automation, and
+                  data analytics. Each project demonstrates my ability to
+                  deliver measurable business value through strategic technology
+                  choices—not complex development for its own sake.
                 </p>
               </div>
             </div>
@@ -165,8 +166,10 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat about AI, problem-solving, or potential
-                collaborations? Feel free to reach out via{" "}
+                Looking for a business-minded technologist who can bridge the
+                gap between business needs and practical solutions? I'd love to
+                discuss how AI, automation, and data analytics can drive your
+                business objectives. Reach out via{" "}
                 <Link
                   href={`mailto:${DATA.contact.email}`}
                   className="text-blue-500 hover:underline"
@@ -180,8 +183,8 @@ export default function Page() {
                 >
                   LinkedIn
                 </Link>
-                . I'm always interested in discussing new opportunities and
-                innovative projects.
+                . I'm always interested in discussing business opportunities and
+                strategic technology implementations.
               </p>
             </div>
           </BlurFade>
