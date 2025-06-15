@@ -95,7 +95,7 @@ export const DATA = {
     {
       title: "Spartan Marketplace",
       href: "https://spartan-marketplace.onrender.com",
-      dates: "May 2024",
+      dates: "May 2025",
       active: true,
       description:
         "Identified critical user pain points in campus commerce through research with 150+ students, then designed and implemented an AI-powered marketplace solution that reduced listing creation time by 80% and improved user engagement by 65%. Led the business case development and solution architecture, then contributed to technical implementation by integrating OpenAI's GPT and Vision APIs for automated product descriptions and building a scalable backend infrastructure using Supabase for real-time data management. The solution delivered measurable improvements in transaction completion rates and user retention while demonstrating how strategic AI implementation can solve real business problems efficiently.",
